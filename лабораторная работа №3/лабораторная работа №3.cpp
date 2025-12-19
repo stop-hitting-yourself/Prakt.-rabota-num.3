@@ -393,7 +393,6 @@ int main() {
             destCoord.Y = 30;
             destCoord.X = 0;
             SetConsoleCursorPosition(hStdout, destCoord);
-            cout << "Нажмите любую клавишу для продолжения:" << '\n';
             int k;
             cout << "Введите любую цифре для продолжения:" << endl;
             cin >> k;
@@ -427,7 +426,6 @@ int main() {
             cout << "Перестановка по схеме D:" << endl;
             swapD(*arr, n);
             cout << '\n';
-            cout << "Нажмите любую клавишу для продолжения:" << '\n';
             int k;
             cout << "Введите любую цифре для продолжения:" << endl;
             cin >> k;
@@ -464,7 +462,6 @@ int main() {
                 if ((ptr - *arr + 1) % m == 0)
                     cout << '\n';
             }
-            cout << "Нажмите любую клавишу для продолжения:" << '\n';
             int k;
             cout << "Введите любую цифре для продолжения:" << endl;
             cin >> k;
@@ -509,7 +506,6 @@ int main() {
         }
         if (w == 5) {
             sedlPoints(n);
-            cout << "Нажмите любую клавишу для продолжения:" << '\n';
             int k;
             cout << "Введите любую цифре для продолжения:" << endl;
             cin >> k;
